@@ -2,8 +2,8 @@ const clienteModel = require('../models/crmModels')
 const { 
 	getAllClientes, 
 	salvarCliente, 
-	removerCliente, 
-	atualizarCliente} = require('../controllers/crmControllers')
+	atualizarCliente, 
+	removerCliente} = require('../controllers/crmControllers')
 
 
 const rotasClientes = (app)=>{	
